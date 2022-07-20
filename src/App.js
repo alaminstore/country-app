@@ -42,7 +42,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <h3>Country App</h3>
+      <h2 style={{ textAlign: "center", fontWeight: "700" }}>Country App</h2>
       <Search onSearch={handleSearch} />
       {isLoading && <h2>Loading...</h2>}
       {error && <h2> {error.message}</h2>}
