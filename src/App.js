@@ -28,6 +28,14 @@ function App() {
     setError(null);
     console.log(countries);
   };
+  const handleSearch = (searchValue) => {
+    let value = searchValue.toLowerCase();
+    const newCountries = countries.filter((country) => {
+      const countryName = country.name.common.toLowerCase();
+      return countryName.startsWith(value);
+    });
+    setFilteredCountries(newCountries);
+  };
 
   useEffect(() => {
     fetchData(url);
@@ -35,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <h3>Country App</h3>
-      <Search />
+      <Search onSearch={handleSearch} />
       {isLoading && <h2>Loading...</h2>}
       {error && <h2> {error.message}</h2>}
       {!isLoading && countries && (
