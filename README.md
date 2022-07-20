@@ -18,4 +18,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 #step-3: Remove Country data(filtering) <br/>
 #step-3: Search Country data(filtering)
 
-<img src=https://github.com/alaminstore/country-app/tree/main/src/screenshot/screenshot.png" alt="screenshot" />
+<img src="https://github.com/alaminstore/country-app/tree/main/src/screenshot/screenshot.png" alt="screenshot" />
