@@ -16,6 +16,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 #step-1: Fetching data <br/>
 #step-2: Show required Data <br/>
 #step-3: Remove Country data(filtering) <br/>
-#step-3: Search Country data(filtering)
-
+#step-3: Search Country data(filtering)<br/>
+##ScreenShot
 <img src="https://github.com/alaminstore/country-app/tree/main/src/screenshot/screenshot.png">
