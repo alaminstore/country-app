@@ -13,7 +13,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 #Project Steps:
 
-##step-1: Fetching data
-##step-2: Show required Data
-##step-3: Remove Country data(filtering)
-##step-3: Search Country data(filtering)
+#step-1: Fetching data <br/>
+#step-2: Show required Data <br/>
+#step-3: Remove Country data(filtering) <br/>
+#step-3: Search Country data(filtering)
